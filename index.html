@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontier Bakery</title>
+  <link rel="icon" type="image/svg+xml" href="Components/cookie_full.svg">
+  <link rel="stylesheet" href="main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=Barlow:wght@400;500;600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- HEADER / NAV -->
+  <header id="main-header">
+    <div class="site_logo">
+      <a href="#" class="logo-link">
+        <div class="Logo_Light Shown">
+          <img src="Components/frontier-logo-white.png" alt="Frontier" />
+        </div>
+        <div class="Logo_Dark">
+          <img src="Components/frontier-logo-dark.png" alt="Frontier" />
+        </div>
+      </a>
+    </div>
+    <nav>
+      <ul class="main-menu">
+        <li><a href="#tab-cookies">Cookies</a></li>
+        <li><a href="#tab-cakes">Cakes</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#">Wholesale</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="main-menu_right">
+        <a href="#" class="menu_icon" aria-label="Cart">
+          <svg class="Icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z" />
+            <line x1="3" y1="6" x2="21" y2="6" />
+            <path d="M16 10a4 4 0 01-8 0" />
+          </svg>
+        </a>
+        <a href="#" class="menu_icon" aria-label="Search">
+          <svg class="Icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8" />
+            <line x1="21" y1="21" x2="16.65" y2="16.65" />
+          </svg>
+        </a>
+      </div>
+      <button class="menu_icon burger" aria-label="Menu">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="3" y1="6" x2="21" y2="6" />
+          <line x1="3" y1="12" x2="21" y2="12" />
+          <line x1="3" y1="18" x2="21" y2="18" />
+        </svg>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO SECTION -->
+    <section class="Hero_Section">
+      <div class="Hero_Wrapper Parallax_Wrapper" id="hero-wrapper">
+        <div class="Hero_Back_Img Parallax_Back_Hero">
+          <img src="Components/BERNICE_HeroCakeImage.png" alt="Frontier Bakery" class="Hero_Img" id="hero-img" />
+        </div>
+        <div class="Hero_Content Parallax_Hero_Front" id="hero-content">
+          <div class="Hero_Heading_wrapper">
+            <h1 class="Hero_Heading Cool_Text_Anim Words" id="hero-heading">
+              <span class="Hero_Line Line_1">
+                <span class="Word"><span>A</span></span>
+                <span class="Word"><span>BAKING</span></span>
+              </span>
+              <span class="Hero_Line Line_2">
+                <span class="Word"><span>LOVE</span></span>
+                <span class="Word"><span>AFFAIR</span></span>
+              </span>
+            </h1>
+            <div class="Hero_Float Parallax_Hero_Front" id="hero-float">
+              <div class="Hero_Float_Anim">
+                <a href="#tab-cookies" class="Hero_Float_Inner" data-content="Indulge">
+                  INDULGE
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="Hero_Stickers" id="hero-stickers">
+            <div class="Hero_Sticker Sticker_Cake" title="Sweet Cakes">
+              <img src="Components/cake_full.svg" alt="Cake SVG" />
+            </div>
+            <div class="Hero_Sticker Sticker_Cookie" title="Fresh Cookies">
+              <img src="Components/cookie_full.svg" alt="Cookie SVG" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MARQUEE SECTION -->
+    <div class="Marquee">
+      <div class="Marquee_Content" id="marquee1">
+        <div>THE BEST THINGS IN LIFE ARE SWEET</div>
+        <div class="Reversed">THE BEST THINGS IN LIFE ARE SWEET</div>
+        <div>THE BEST THINGS IN LIFE ARE SWEET</div>
+        <div class="Reversed">THE BEST THINGS IN LIFE ARE SWEET</div>
+      </div>
+    </div>
+
+    <!-- ARCHES / GALLERY SECTION -->
+    <section class="Arches_Display_Section">
+      <div class="Arches_Display_Container">
+        <div class="Arches_Display_Inner" id="arches-inner">
+          <div class="Arch_Item">
+            <div class="Window_Image Arch_Shape">
+              <img src="Components/butter-kaju-biscuit.jpg" alt="Butter Kaju Biscuit" />
+            </div>
+            <div class="Arches_Display_Icon">
+              <img src="Components/Fove_12.png" alt="Frontier bakery icon" />
+            </div>
+          </div>
+          <div class="Arch_Item">
+            <div class="Window_Image Arch_Shape">
+              <img src="Components/choco-crush-biscuit.jpg" alt="Choco Crush Biscuits" />
+            </div>
+          </div>
+          <div class="Arch_Item">
+            <div class="Window_Image Arch_Shape">
+              <img src="Components/coconut-delight-biscuit.jpg" alt="Coconut Delight Biscuit" />
+            </div>
+            <div class="Arches_Display_Icon">
+              <img src="Components/Fove_12.png" alt="Frontier bakery icon" />
+            </div>
+          </div>
+          <div class="Arch_Item">
+            <div class="Window_Image Arch_Shape">
+              <img src="Components/honey-cornflakes-biscuit.jpg" alt="Honey Cornflakes Biscuits" />
+            </div>
+          </div>
+          <!-- Duplicate for seamless scroll -->
+          <div class="Arch_Item">
+            <div class="Window_Image Arch_Shape">
+              <img src="Components/butter-kaju-biscuit.jpg" alt="Butter Kaju Biscuit" />
+            </div>
+            <div class="Arches_Display_Icon">
+              <img src="Components/Fove_12.png" alt="Frontier bakery icon" />
+            </div>
+          </div>
+          <div class="Arch_Item">
+            <div class="Window_Image Arch_Shape">
+              <img src="Components/choco-crush-biscuit.jpg" alt="Choco Crush Biscuits" />
+            </div>
+          </div>
+          <div class="Arch_Item">
+            <div class="Window_Image Arch_Shape">
+              <img src="Components/coconut-delight-biscuit.jpg" alt="Coconut Delight Biscuit" />
+            </div>
+            <div class="Arches_Display_Icon">
+              <img src="Components/Fove_12.png" alt="Frontier bakery icon" />
+            </div>
+          </div>
+          <div class="Arch_Item">
+            <div class="Window_Image Arch_Shape">
+              <img src="Components/honey-cornflakes-biscuit.jpg" alt="Honey Cornflakes Biscuits" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="About_Section" id="about">
+      <div class="About_Content">
+        <div class="About_Left">
+          <h2 class="About_Heading">GOOD FOOD SHOULD<br>BOTH COMFORT AND<br>NOURISH THE SOUL.</h2>
+          <div class="About_Icon">
+            <img src="Components/Fove_12.png" alt="cake icon" />
+          </div>
+        </div>
+        <div class="About_Right">
+          <p>We are centrally located in the neighborhood of St-Henri. Stop by for a coffee, catch up on work, or grab
+            some of our delicious goodies to go. With cookies and cakes available for online order, there's something
+            for everyone, and every occasion.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- BESTSELLERS SECTION -->
+    <section class="Bestsellers_Section">
+      <!-- Animated Background Text Belt -->
+      <div class="Bestsellers_Background_Belt" aria-hidden="true">
+        <div class="Belt_Row">
+          <div class="Belt_Content Reversed">
+            <span class="Outlined">BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span class="Outlined">BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span class="Outlined">BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span class="Outlined">BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <!-- Seamless loop duplicate -->
+            <span class="Outlined">BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span class="Outlined">BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span class="Outlined">BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span class="Outlined">BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+          </div>
+        </div>
+        <div class="Belt_Row">
+          <div class="Belt_Content">
+            <span>BESTSELLERS</span>
+            <span class="Outlined">BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span class="Outlined">BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span class="Outlined">BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span class="Outlined">BESTSELLERS</span>
+            <!-- Seamless loop duplicate -->
+            <span>BESTSELLERS</span>
+            <span class="Outlined">BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span class="Outlined">BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span class="Outlined">BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span class="Outlined">BESTSELLERS</span>
+          </div>
+        </div>
+        <div class="Belt_Row">
+          <div class="Belt_Content Reversed">
+            <span>BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span class="Outlined">BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span class="Outlined">BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span class="Outlined">BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <!-- Seamless loop duplicate -->
+            <span>BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span class="Outlined">BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span class="Outlined">BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span class="Outlined">BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+          </div>
+        </div>
+        <div class="Belt_Row">
+          <div class="Belt_Content">
+            <span class="Outlined">BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span class="Outlined">BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span class="Outlined">BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span class="Outlined">BESTSELLERS</span>
+            <!-- Seamless loop duplicate -->
+            <span class="Outlined">BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span class="Outlined">BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span class="Outlined">BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span class="Outlined">BESTSELLERS</span>
+          </div>
+        </div>
+        <div class="Belt_Row">
+          <div class="Belt_Content Reversed">
+            <span>BESTSELLERS</span>
+            <span class="Outlined">BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span class="Outlined">BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span class="Outlined">BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <!-- Seamless loop duplicate -->
+            <span>BESTSELLERS</span>
+            <span class="Outlined">BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span class="Outlined">BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span class="Outlined">BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+          </div>
+        </div>
+        <div class="Belt_Row">
+          <div class="Belt_Content">
+            <span>BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span class="Outlined">BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span class="Outlined">BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span class="Outlined">BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span class="Outlined">BESTSELLERS</span>
+            <!-- Seamless loop duplicate -->
+            <span>BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span class="Outlined">BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span class="Outlined">BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span class="Outlined">BESTSELLERS</span>
+            <span>BESTSELLERS</span>
+            <span class="Outlined">BESTSELLERS</span>
+          </div>
+        </div>
+      </div>
+      <div class="Bestsellers_Grid">
+        <!-- Product 1 -->
+        <div class="Product_Item">
+          <a href="#" class="Product_Item_Image">
+            <img src="Components/birthday-cookie-1.jpg" alt="Birthday Cookie"
+              onerror="this.src='Components/Two_Food_Photograhers-160.jpg'" />
+            <div class="Product_Item_Second_Image">
+              <img src="Components/birthday-cookie-2.png" alt="Birthday Cookie 2"
+                onerror="this.src='Components/Two_Food_Photograhers-160.jpg'" />
+            </div>
+            <span class="Product_Item_Ingredient" style="--top: 30%; --left: 50%; --rotation: -15deg;">RAINBOW
+              SPRINKLES</span>
+          </a>
+          <div class="Product_Item_Content">
+            <div>
+              <p class="Product_Item_Title">BIRTHDAY COOKIE</p>
+              <p><span class="Format">Box of 6</span> <span class="Separator_Dot"></span> <span
+                  class="Weight">4oz</span></p>
+              <span class="Price">₹29</span>
+            </div>
+            <div class="Quantity_Selector">
+              <button class="qty-btn minus">−</button>
+              <span class="qty-num">1</span>
+              <button class="qty-btn plus">+</button>
+            </div>
+          </div>
+          <div class="Product_Item_Submit_Container">
+            <button class="Product_Item_Submit">ADD TO CART</button>
+          </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="Product_Item">
+          <a href="#" class="Product_Item_Image">
+            <img src="Components/smores-cookie-1.jpg" alt="S'mores Cookie" />
+            <div class="Product_Item_Second_Image">
+              <img src="Components/smores-cookie-2.png" alt="S'mores Cookie 2" />
+            </div>
+            <span class="Product_Item_Ingredient"
+              style="--top: 25%; --left: 40%; --rotation: 10deg;">MARSHMALLOWS</span>
+            <span class="Product_Item_Ingredient" style="--top: 40%; --left: 65%; --rotation: -8deg;">DARK
+              CHOCOLATE</span>
+            <span class="Product_Item_Ingredient" style="--top: 65%; --left: 50%; --rotation: 5deg;">GRAHAM
+              CRACKERS</span>
+          </a>
+          <div class="Product_Item_Content">
+            <div>
+              <p class="Product_Item_Title">S'MORES COOKIE</p>
+              <p><span class="Format">Box of 6</span> <span class="Separator_Dot"></span> <span
+                  class="Weight">4oz</span></p>
+              <span class="Price">₹29</span>
+            </div>
+            <div class="Quantity_Selector">
+              <button class="qty-btn minus">−</button>
+              <span class="qty-num">1</span>
+              <button class="qty-btn plus">+</button>
+            </div>
+          </div>
+          <div class="Product_Item_Submit_Container">
+            <button class="Product_Item_Submit">ADD TO CART</button>
+          </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="Product_Item">
+          <a href="#" class="Product_Item_Image">
+            <img src="Components/white-dark-chocolate-chunk-cookie-1.jpg" alt="White & Dark Chocolate Chunk Cookie" />
+            <div class="Product_Item_Second_Image">
+              <img src="Components/white-dark-chocolate-chunk-cookie-2.png"
+                alt="White & Dark Chocolate Chunk Cookie 2" />
+            </div>
+          </a>
+          <div class="Product_Item_Content">
+            <div>
+              <p class="Product_Item_Title">WHITE & DARK CHOCOLATE CHUNK COOKIE</p>
+              <p><span class="Format">Box of 6</span> <span class="Separator_Dot"></span> <span
+                  class="Weight">4oz</span></p>
+              <span class="Price">₹29</span>
+            </div>
+            <div class="Quantity_Selector">
+              <button class="qty-btn minus">−</button>
+              <span class="qty-num">1</span>
+              <button class="qty-btn plus">+</button>
+            </div>
+          </div>
+          <div class="Product_Item_Submit_Container">
+            <button class="Product_Item_Submit">ADD TO CART</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SHOP TABS SECTION -->
+    <section class="Shop_Section">
+      <div class="Shop_Tabs">
+        <button class="Shop_Tab active" data-tab="cookies">COOKIES</button>
+        <button class="Shop_Tab" data-tab="cakes">CAKES</button>
+      </div>
+      <div class="Shop_Grid" id="tab-cookies">
+        <div class="Product_Item">
+          <a href="#" class="Product_Item_Image Square">
+            <img src="Components/white-dark-chocolate-chunk-cookie-1.jpg" alt="White & Dark Chocolate Chunk Cookie" />
+          </a>
+          <div class="Product_Item_Content">
+            <div>
+              <p class="Product_Item_Title">WHITE & DARK CHOCOLATE CHUNK COOKIE</p>
+              <p><span class="Format">Box of 6</span> <span class="Separator_Dot"></span> <span
+                  class="Weight">4oz</span></p>
+              <span class="Price">₹29</span>
+            </div>
+            <div class="Quantity_Selector">
+              <button class="qty-btn minus">−</button>
+              <span class="qty-num">1</span>
+              <button class="qty-btn plus">+</button>
+            </div>
+          </div>
+          <div class="Product_Item_Submit_Container">
+            <button class="Product_Item_Submit">ADD TO CART</button>
+          </div>
+        </div>
+        <div class="Product_Item">
+          <a href="#" class="Product_Item_Image Square">
+            <img src="Components/birthday-cookie-1.jpg" alt="Birthday Cookie"
+              onerror="this.src='Components/Two_Food_Photograhers-164.jpg'" />
+          </a>
+          <div class="Product_Item_Content">
+            <div>
+              <p class="Product_Item_Title">BIRTHDAY COOKIE</p>
+              <p><span class="Format">Box of 6</span> <span class="Separator_Dot"></span> <span
+                  class="Weight">4oz</span></p>
+              <span class="Price">₹29</span>
+            </div>
+            <div class="Quantity_Selector">
+              <button class="qty-btn minus">−</button>
+              <span class="qty-num">1</span>
+              <button class="qty-btn plus">+</button>
+            </div>
+          </div>
+          <div class="Product_Item_Submit_Container">
+            <button class="Product_Item_Submit">ADD TO CART</button>
+          </div>
+        </div>
+        <div class="Product_Item">
+          <a href="#" class="Product_Item_Image Square">
+            <img src="Components/smores-cookie-1.jpg" alt="S'mores Cookie" />
+          </a>
+          <div class="Product_Item_Content">
+            <div>
+              <p class="Product_Item_Title">S'MORES COOKIE</p>
+              <p><span class="Format">Box of 6</span> <span class="Separator_Dot"></span> <span
+                  class="Weight">4oz</span></p>
+              <span class="Price">₹29</span>
+            </div>
+            <div class="Quantity_Selector">
+              <button class="qty-btn minus">−</button>
+              <span class="qty-num">1</span>
+              <button class="qty-btn plus">+</button>
+            </div>
+          </div>
+          <div class="Product_Item_Submit_Container">
+            <button class="Product_Item_Submit">ADD TO CART</button>
+          </div>
+        </div>
+        <div class="Product_Item">
+          <a href="#" class="Product_Item_Image Square">
+            <img src="Components/salted-caramel-pecan-cookie-1.jpg" alt="Salted Caramel Pecan Cookie" />
+          </a>
+          <div class="Product_Item_Content">
+            <div>
+              <p class="Product_Item_Title">SALTED CARAMEL PECAN COOKIE</p>
+              <p><span class="Format">Box of 6</span> <span class="Separator_Dot"></span> <span
+                  class="Weight">4oz</span></p>
+              <span class="Price">₹29</span>
+            </div>
+            <div class="Quantity_Selector">
+              <button class="qty-btn minus">−</button>
+              <span class="qty-num">1</span>
+              <button class="qty-btn plus">+</button>
+            </div>
+          </div>
+          <div class="Product_Item_Submit_Container">
+            <button class="Product_Item_Submit">ADD TO CART</button>
+          </div>
+        </div>
+        <div class="Product_Item">
+          <a href="#" class="Product_Item_Image Square">
+            <img src="Components/peanut-butter-jam-cookie-1.jpg" alt="Peanut Butter Jam Cookie" />
+          </a>
+          <div class="Product_Item_Content">
+            <div>
+              <p class="Product_Item_Title">PEANUT BUTTER JAM COOKIE</p>
+              <p><span class="Format">Box of 6</span> <span class="Separator_Dot"></span> <span
+                  class="Weight">4oz</span></p>
+              <span class="Price">₹29</span>
+            </div>
+            <div class="Quantity_Selector">
+              <button class="qty-btn minus">−</button>
+              <span class="qty-num">1</span>
+              <button class="qty-btn plus">+</button>
+            </div>
+          </div>
+          <div class="Product_Item_Submit_Container">
+            <button class="Product_Item_Submit">ADD TO CART</button>
+          </div>
+        </div>
+        <div class="Product_Item">
+          <a href="#" class="Product_Item_Image Square">
+            <img src="Components/milk-chocolate-caramel-cookie-1.jpg" alt="Milk Chocolate Caramel Cookie" />
+          </a>
+          <div class="Product_Item_Content">
+            <div>
+              <p class="Product_Item_Title">MILK CHOCOLATE CARAMEL COOKIE</p>
+              <p><span class="Format">Box of 6</span> <span class="Separator_Dot"></span> <span
+                  class="Weight">4oz</span></p>
+              <span class="Price">₹29</span>
+            </div>
+            <div class="Quantity_Selector">
+              <button class="qty-btn minus">−</button>
+              <span class="qty-num">1</span>
+              <button class="qty-btn plus">+</button>
+            </div>
+          </div>
+          <div class="Product_Item_Submit_Container">
+            <button class="Product_Item_Submit">ADD TO CART</button>
+          </div>
+        </div>
+        <div class="Product_Item">
+          <a href="#" class="Product_Item_Image Square">
+            <img src="Components/hazelnut-chocolate-ganache-cookie-1.jpg" alt="Hazelnut Chocolate Ganache Cookie" />
+            <div class="Product_Item_Second_Image">
+              <img src="Components/hazelnut-chocolate-ganache-cookie-2.png" alt="Hazelnut Chocolate Ganache Cookie 2" />
+            </div>
+          </a>
+          <div class="Product_Item_Content">
+            <div>
+              <p class="Product_Item_Title">HAZELNUT CHOCOLATE GANACHE COOKIE</p>
+              <p><span class="Format">Box of 6</span> <span class="Separator_Dot"></span> <span
+                  class="Weight">4oz</span></p>
+              <span class="Price">₹29</span>
+            </div>
+            <div class="Quantity_Selector">
+              <button class="qty-btn minus">−</button>
+              <span class="qty-num">1</span>
+              <button class="qty-btn plus">+</button>
+            </div>
+          </div>
+          <div class="Product_Item_Submit_Container">
+            <button class="Product_Item_Submit">ADD TO CART</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cakes Tab (hidden by default) -->
+      <div class="Shop_Grid hidden" id="tab-cakes">
+        <div class="Product_Item">
+          <a href="#" class="Product_Item_Image Square">
+            <img src="Components/Bernice-BrownButterCake-03.jpg" alt="Brown Butter Cake" />
+          </a>
+          <div class="Product_Item_Content">
+            <div>
+              <p class="Product_Item_Title">BROWN BUTTER CAKE</p>
+              <p><span class="Format">6 inch</span> <span class="Separator_Dot"></span> <span class="Weight">Serves
+                  8</span></p>
+              <span class="Price">₹75</span>
+            </div>
+            <div class="Quantity_Selector">
+              <button class="qty-btn minus">−</button>
+              <span class="qty-num">1</span>
+              <button class="qty-btn plus">+</button>
+            </div>
+          </div>
+          <div class="Product_Item_Submit_Container">
+            <button class="Product_Item_Submit">ADD TO CART</button>
+          </div>
+        </div>
+        <div class="Product_Item">
+          <a href="#" class="Product_Item_Image Square">
+            <img src="Components/honeycake-01.jpg" alt="Honey Cake" />
+          </a>
+          <div class="Product_Item_Content">
+            <div>
+              <p class="Product_Item_Title">HONEY CAKE</p>
+              <p><span class="Format">6 inch</span> <span class="Separator_Dot"></span> <span class="Weight">Serves
+                  8</span></p>
+              <span class="Price">₹75</span>
+            </div>
+            <div class="Quantity_Selector">
+              <button class="qty-btn minus">−</button>
+              <span class="qty-num">1</span>
+              <button class="qty-btn plus">+</button>
+            </div>
+          </div>
+          <div class="Product_Item_Submit_Container">
+            <button class="Product_Item_Submit">ADD TO CART</button>
+          </div>
+        </div>
+        <div class="Product_Item">
+          <a href="#" class="Product_Item_Image Square">
+            <img src="Components/LemonPoppyseed-01b.jpg" alt="Lemon Poppyseed Cake" />
+          </a>
+          <div class="Product_Item_Content">
+            <div>
+              <p class="Product_Item_Title">LEMON POPPYSEED CAKE</p>
+              <p><span class="Format">6 inch</span> <span class="Separator_Dot"></span> <span class="Weight">Serves
+                  8</span></p>
+              <span class="Price">₹75</span>
+            </div>
+            <div class="Quantity_Selector">
+              <button class="qty-btn minus">−</button>
+              <span class="qty-num">1</span>
+              <button class="qty-btn plus">+</button>
+            </div>
+          </div>
+          <div class="Product_Item_Submit_Container">
+            <button class="Product_Item_Submit">ADD TO CART</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CELEBRATE WITH COOKIE CTA -->
+    <section class="Collections_CTA_Section">
+      <div class="Collections_CTA_Image">
+        <div class="Arch_Shape CTA_Arch">
+          <img src="Components/Gemini_Generated_Image_76zj1a76zj1a76zj.png" alt="Celebrate with cookies" />
+        </div>
+        <div class="Collections_CTA_Button">
+          <a href="#tab-cookies">ORDER</a>
+        </div>
+        <svg class="Collections_CTA_Title_SVG" viewBox="0 0 221.66 283.6" aria-hidden="true">
+          <path id="celebratePath"
+            d="M 0.5 283.6 V 106 C 0.5 48.7 48.7 5 106 5 H 111.6 C 171.1 5 219.4 48.8 219.4 108.4 V 283.6"
+            fill="none" />
+          <text font-family="'Barlow Condensed', sans-serif" font-weight="900" font-size="44" letter-spacing="0.5"
+            fill="var(--dark)">
+            <textPath id="celebrateTextPath" href="#celebratePath" startOffset="80">CELEBRATE WITH COOKIE</textPath>
+          </text>
+        </svg>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section class="Testimonials_Section">
+      <div class="Testimonials_Header">
+        <div class="Testimonials_Nav">
+          <button class="Testimonials_Btn" id="prev-btn" aria-label="Previous">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2">
+              <polyline points="15,18 9,12 15,6" />
+            </svg>
+          </button>
+          <button class="Testimonials_Btn" id="next-btn" aria-label="Next">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2">
+              <polyline points="9,18 15,12 9,6" />
+            </svg>
+          </button>
+        </div>
+        <a href="#" class="View_All_Link">VIEW ALL</a>
+      </div>
+      <div class="Testimonials_Scroller">
+        <div class="Testimonials_Container" id="testimonials-container">
+          <div class="Testimonial">
+            <p class="Citations">"</p>
+            <p>Frontier puts forth the kind of sweets that take you back to childhood. Nothing too complex, but
+              everything is well done. The tiered cakes are nicely displayed on the counter, enjoy a single serving or
+              an entire cakes.</p>
+            <div class="Testimonial_Logo">
+              <img src="Components/Journal-de-montreal-logo.png" alt="TASTET"
+                onerror="this.outerHTML='<span class=\'logo-text-fallback\'>TASTET</span>'" />
+            </div>
+          </div>
+          <div class="Testimonial">
+            <p class="Citations">"</p>
+            <p>On the western edge of St-Henri lies bakery-café Frontier, specializing in layered cakes and some of the
+              most decadent cookies around.</p>
+            <div class="Testimonial_Logo">
+              <span class="logo-text-fallback eater-logo">EATER</span>
+            </div>
+          </div>
+          <div class="Testimonial">
+            <p class="Citations">"</p>
+            <p>Home is where the heart is—or is that cookies? Because many times our home has been at Frontier, where
+              the cookies are what all cookies should be.</p>
+            <div class="Testimonial_Logo">
+              <span class="logo-text-fallback timeout-logo">TimeOut</span>
+            </div>
+          </div>
+          <!-- Duplicates for infinite scroll -->
+          <div class="Testimonial">
+            <p class="Citations">"</p>
+            <p>Frontier puts forth the kind of sweets that take you back to childhood. Nothing too complex, but
+              everything is well done. The tiered cakes are nicely displayed on the counter, enjoy a single serving or
+              an entire cakes.</p>
+            <div class="Testimonial_Logo">
+              <span class="logo-text-fallback">TASTET</span>
+            </div>
+          </div>
+          <div class="Testimonial">
+            <p class="Citations">"</p>
+            <p>On the western edge of St-Henri lies bakery-café Frontier, specializing in layered cakes and some of the
+              most decadent cookies around.</p>
+            <div class="Testimonial_Logo">
+              <span class="logo-text-fallback eater-logo">EATER</span>
+            </div>
+          </div>
+          <div class="Testimonial">
+            <p class="Citations">"</p>
+            <p>Home is where the heart is—or is that cookies? Because many times our home has been at Frontier, where
+              the cookies are what all cookies should be.</p>
+            <div class="Testimonial_Logo">
+              <span class="logo-text-fallback timeout-logo">TimeOut</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MARQUEE 2 -->
+    <div class="Marquee">
+      <div class="Marquee_Content Reversed">
+        <div>CELEBRATE · INDULGE · ENJOY · BAKE · SHARE</div>
+        <div>CELEBRATE · INDULGE · ENJOY · BAKE · SHARE</div>
+        <div>CELEBRATE · INDULGE · ENJOY · BAKE · SHARE</div>
+        <div>CELEBRATE · INDULGE · ENJOY · BAKE · SHARE</div>
+      </div>
+    </div>
+
+    <!-- NEWSLETTER SECTION -->
+    <section class="Newsletter_Section">
+      <div class="Newsletter_Wrapper">
+        <div class="Newsletter_Icon left">
+          <img src="Components/cake_full.svg" alt="cake icon" />
+        </div>
+        <div class="Newsletter_Content">
+          <h2 class="Newsletter_Heading">JOIN OUR NEWSLETTER</h2>
+          <p>Join our newsletter to stay informed of our specials and events.</p>
+          <form class="Newsletter_Form">
+            <input type="email" placeholder="EMAIL" class="Newsletter_Input" />
+            <button type="submit" class="Newsletter_Btn">JOIN</button>
+          </form>
+        </div>
+        <div class="Newsletter_Icon right">
+          <img src="Components/cookie_full.svg" alt="cookies" />
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="Site_Footer">
+    <div class="Footer_Top">
+      <div class="Footer_Info">
+        <p><a href="mailto:bonjour@frontierbakery.com">bonjour@frontierbakery.com</a><br><a href="tel:+919033995419">+91
+            90339 95419</a></p>
+        <div class="Footer_Apps">
+          <a href="#" class="Footer_App uber-eats">Uber<br>Eats</a>
+          <a href="#" class="Footer_App doordash">D</a>
+        </div>
+        <a href="#" class="Footer_Instagram">Follow us on Instagram</a>
+      </div>
+      <div class="Footer_Nav">
+        <ul>
+          <li><a href="#tab-cookies">Cookies</a></li>
+          <li><a href="#tab-cakes">Cakes</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Wholesale</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#">Français</a></li>
+        </ul>
+      </div>
+      <div class="Footer_Newsletter">
+        <form class="Newsletter_Form small">
+          <input type="email" placeholder="EMAIL" class="Newsletter_Input" />
+          <button type="submit" class="Newsletter_Btn">JOIN</button>
+        </form>
+      </div>
+    </div>
+    <div class="Footer_Big_Name">FRONTIER</div>
+    <div class="Footer_Bottom">
+      <span>Copyright 2026 | Frontier Bakery</span>
+      <span><a href="#">Terms of use</a> | <a href="#">Privacy policy</a></span>
+      <span></span>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+
+</html>

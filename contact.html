@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Frontier Bakery</title>
+  <link rel="icon" type="image/svg+xml" href="Components/cookie_full.svg">
+  <link rel="stylesheet" href="main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=Barlow:wght@400;500;600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body class="light-theme">
+
+  <!-- HEADER / NAV -->
+  <header id="main-header">
+    <div class="site_logo">
+      <a href="index.html" class="logo-link">
+        <div class="Logo_Dark Shown">
+          <img src="Components/frontier-logo-dark.png" alt="Frontier" />
+        </div>
+      </a>
+    </div>
+    <nav>
+      <ul class="main-menu">
+        <li><a href="index.html#tab-cookies">Cookies</a></li>
+        <li><a href="index.html#tab-cakes">Cakes</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="#">Wholesale</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+      <div class="main-menu_right">
+        <a href="#" class="menu_icon" aria-label="Cart">
+          <svg class="Icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z" />
+            <line x1="3" y1="6" x2="21" y2="6" />
+            <path d="M16 10a4 4 0 01-8 0" />
+          </svg>
+        </a>
+        <a href="#" class="menu_icon" aria-label="Search">
+          <svg class="Icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8" />
+            <line x1="21" y1="21" x2="16.65" y2="16.65" />
+          </svg>
+        </a>
+      </div>
+      <button class="menu_icon burger" aria-label="Menu">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="3" y1="6" x2="21" y2="6" />
+          <line x1="3" y1="12" x2="21" y2="12" />
+          <line x1="3" y1="18" x2="21" y2="18" />
+        </svg>
+      </button>
+    </nav>
+  </header>
+
+  <main class="Contact_Page_Main">
+    <section class="Contact_Section">
+      <div class="Contact_Container">
+
+        <!-- Left Column: Form -->
+        <div class="Contact_Form_Column">
+          <h1 class="Contact_Heading">CONTACT US</h1>
+
+          <form class="Contact_Form" id="contact-form">
+            <div class="Form_Row Form_Row_2">
+              <input type="text" name="firstName" placeholder="FIRST NAME" class="Contact_Input" required />
+              <input type="text" name="lastName" placeholder="LAST NAME" class="Contact_Input" required />
+            </div>
+
+            <div class="Form_Row Form_Row_2">
+              <input type="tel" name="phoneNumber" placeholder="PHONE NUMBER" class="Contact_Input" />
+              <input type="email" name="email" placeholder="EMAIL" class="Contact_Input" required />
+            </div>
+
+            <div class="Form_Row">
+              <textarea name="message" placeholder="Tell us what you need" rows="6" class="Contact_Textarea"
+                required></textarea>
+            </div>
+
+            <div class="Form_Action">
+              <button type="submit" class="Contact_Submit_Btn">SEND</button>
+            </div>
+          </form>
+        </div>
+
+        <!-- Right Column: Cafe Interior Photo -->
+        <div class="Contact_Image_Column">
+          <div class="Contact_Image_Card">
+            <img src="Components/contact-cafe.jpg" alt="Frontier Bakery cafe interior" class="Contact_Image" />
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="Site_Footer">
+    <div class="Footer_Top">
+      <div class="Footer_Info">
+        <p><a href="mailto:bonjour@frontierbakery.com">bonjour@frontierbakery.com</a><br><a href="tel:+919033995419">+91
+            90339 95419</a></p>
+        <div class="Footer_Apps">
+          <a href="#" class="Footer_App uber-eats">Uber<br>Eats</a>
+          <a href="#" class="Footer_App doordash">D</a>
+        </div>
+        <a href="#" class="Footer_Instagram">Follow us on Instagram</a>
+      </div>
+      <div class="Footer_Nav">
+        <ul>
+          <li><a href="index.html#tab-cookies">Cookies</a></li>
+          <li><a href="index.html#tab-cakes">Cakes</a></li>
+          <li><a href="index.html#about">About</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Wholesale</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#">Français</a></li>
+        </ul>
+      </div>
+      <div class="Footer_Newsletter">
+        <form class="Newsletter_Form small">
+          <input type="email" placeholder="EMAIL" class="Newsletter_Input" />
+          <button type="submit" class="Newsletter_Btn">JOIN</button>
+        </form>
+      </div>
+    </div>
+    <div class="Footer_Big_Name">FRONTIER</div>
+    <div class="Footer_Bottom">
+      <span>Copyright 2026 | Frontier Bakery</span>
+      <span><a href="#">Terms of use</a> | <a href="#">Privacy policy</a></span>
+      <span></span>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+
+</html>

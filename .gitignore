@@ -1,0 +1,11 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor / AI tools
+.claude/
+.vscode/
+.idea/
+
+# Node (if used later)
+node_modules/
